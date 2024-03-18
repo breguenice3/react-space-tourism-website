@@ -1,0 +1,31 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: url('../../assets/home/background-home-desktop.jpg') no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    color: azure;
+}
+
+hr{
+    width: 473px;
+    height: 1px;
+    border: 1px solid #979797;
+    position: absolute;
+    z-index: 99;
+    left: 150px;
+}
+
+.navbar-container{
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+}
+
+.logo{
+    background: url('../../assets/shared/logo.svg') no-repeat;
+    background-size: cover;
+    width: 48px;
+    height: 48px;
+}
