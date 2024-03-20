@@ -4,3 +4,138 @@
     background: url('../../assets/destination/background-destination-desktop.jpg') no-repeat;
     background-size: cover;
 }
+
+.buttons {
+    width: 285.5px;
+    height: 34px;
+    display: flex;
+    gap: 36px;
+}
+
+.btn {
+    width: 42px;
+    height: 19px;
+    background-color: transparent;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 2.7px;
+}
+
+.btn:hover {
+    text-decoration: underline 3px;
+    text-underline-offset: 12px;
+    text-decoration-color: #979797;
+}
+
+.imgMoon {
+    background: url('../../assets/destination/image-moon.png') no-repeat;
+    background-size: cover;
+    width: 445px;
+    height: 445px;
+}
+
+.imgMars{
+    background: url('../../assets/destination/image-mars.png') no-repeat;
+    background-size: cover;
+    width: 445px;
+    height: 445px;
+}
+
+.imgEuropa{
+    background: url('../../assets/destination/image-europa.png') no-repeat;
+    background-size: cover;
+    width: 445px;
+    height: 445px;
+}
+
+.imgTitan{
+    background: url('../../assets/destination/image-titan.png') no-repeat;
+    background-size: cover;
+    width: 445px;
+    height: 445px;
+}
+
+.none{
+    display: none;
+}
+
+.container-imgs {
+    display: flex;
+    padding-top: 76px;
+    align-items: center;
+    justify-self: center;
+    justify-content: space-evenly;
+    width: 100vw;
+    padding-top: 100px;
+}
+
+.title-pag {
+    color: white;
+    font-weight: 300;
+    font-size: 28px;
+    width: 382px;
+    height: 34px;
+    letter-spacing: 4.72px;
+}
+
+.title-pag span {
+    color: #979797;
+}
+
+.text-imgs {
+    width: 445px;
+    height: 472px;
+    color: white;
+}
+
+.text-imgs h1 {
+    font-size: 100px;
+    padding-top: 27px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.imgs-infos {
+    color: #D0D6F9;
+    line-height: 32px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding-bottom: 54px;
+    padding-top: 14px;
+}
+
+.tittle {
+    width: 100vw;
+    padding-left: 166.5px;
+    padding-top: 74px;
+}
+
+.info {
+    color: white;
+    font-size: 28px;
+    padding-top: 12px;
+}
+
+.container-data-infos {
+    display: flex;
+    gap: 79px;
+    padding-top: 28px;
+}
+
+.text-imgs hr{
+    width: 444px;
+    height: 1px;
+    border: 1px solid #383b4b5b;
+}
+
+.tag{
+    color: #D0D6F9;
+    font-size: 14px;
+    letter-spacing: 2.36px;
+}
+
+.active{
+    text-decoration: underline 3px;
+    text-underline-offset: 12px;
+}
