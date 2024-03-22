@@ -36,7 +36,18 @@ export default function Destination() {
 
     const [planet, setPlanet] = useState(0);
 
-    const [btnsActive, setBtnsActive] = useState("")
+    const [btnsActive, setBtnsActive] = useState("");
+
+    function change(planet: string, img: string, planet2: string, img2: string, planet3: string, img3: string, planet4: string, img4:string) {
+        document.getElementById(planet)?.classList.add('active');
+        document.getElementById(img)?.classList.remove('none');
+        document.getElementById(planet2)?.classList.remove('active');
+        document.getElementById(img2)?.classList.add('none');
+        document.getElementById(planet3)?.classList.remove('active');
+        document.getElementById(img3)?.classList.add('none');
+        document.getElementById(planet4)?.classList.remove('active');
+        document.getElementById(img4)?.classList.add('none');
+    }
 
 
     return (
@@ -64,58 +75,31 @@ export default function Destination() {
                 <div>
                     <div className='buttons' id="btns">
                         <button className='btn active' id='moon' key={'moon'} onClick={() => {
-                            
-                            document.getElementById('moon')?.classList.add('active');
-                            document.getElementById('img')?.classList.remove('none');
-                            document.getElementById('europa')?.classList.remove('active');
-                            document.getElementById('img1')?.classList.add('none');
-                            document.getElementById('mars')?.classList.remove('active');
-                            document.getElementById('img2')?.classList.add('none');
-                            document.getElementById('titan')?.classList.remove('active');
-                            document.getElementById('img3')?.classList.add('none');
+
+                            change('moon', 'img','europa', 'img1', 'mars', 'img2','titan', 'img3');
                             return setPlanet(0)
                         }
                         }>MOON</button>
                         <button className='btn' id='mars' key={'mars'} onClick={() => {
-                            document.getElementById('mars')?.classList.add('active');
-                            document.getElementById('img2')?.classList.add('none');
-                            document.getElementById('europa')?.classList.remove('active');
-                            document.getElementById('img3')?.classList.add('none');
-                            document.getElementById('moon')?.classList.remove('active');
-                            document.getElementById('img')?.classList.add('none');
-                            document.getElementById('titan')?.classList.remove('active');
-                            document.getElementById('img1')?.classList.remove('none');
-                            
+
+                            change('mars', 'img1', 'europa', 'img3', 'moon', 'img', 'titan', 'img2');
                             return setPlanet(1)
                         }
                         }>MARS</button>
                         <button className='btn' key={'europa'} id="europa"
-                        onClick={() => {
-                            document.getElementById('europa')?.classList.add('active');
-                            document.getElementById('img')?.classList.add('none');
-                            document.getElementById('mars')?.classList.remove('active');
-                            document.getElementById('img1')?.classList.add('none');
-                            document.getElementById('moon')?.classList.remove('active');
-                            document.getElementById('img2')?.classList.remove('none');
-                            document.getElementById('titan')?.classList.remove('active');
-                            document.getElementById('img3')?.classList.add('none');
-                            return setPlanet(2)
-                        }
-                        }
+                            onClick={() => {
+
+                                change('europa', 'img2', 'mars', 'img1', 'moon', 'img', 'titan', 'img3');
+                                return setPlanet(2)
+                            }
+                            }
                         >EUROPA</button>
                         <button className='btn' key={'titan'} id="titan"
-                        onClick={() => {
-                            document.getElementById('titan')?.classList.add('active');
-                            document.getElementById('img')?.classList.add('none');
-                            document.getElementById('europa')?.classList.remove('active');
-                            document.getElementById('img1')?.classList.add('none');
-                            document.getElementById('moon')?.classList.remove('active');
-                            document.getElementById('img2')?.classList.add('none');
-                            document.getElementById('mars')?.classList.remove('active');
-                            document.getElementById('img3')?.classList.remove('none');
-                            return setPlanet(3)
-                        }
-                        }
+                            onClick={() => {
+                                change('titan', 'img3', 'moon', 'img', 'mars', 'img2', 'europa', 'img1');
+                                return setPlanet(3)
+                            }
+                            }
                         >TITAN</button>
                     </div>
                     <div className="text-imgs">

@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+.page-crew-container{
+    width: 100vw;
+    height: 100vh;
+    background: url('../../../src/assets/crew/background-crew-desktop.jpg') no-repeat;
+    background-size: cover;
+    font-family: "Bellefair", serif;
+}
+
+.img{
+    background: url('../../assets/crew/image-douglas-hurley.png') no-repeat;
+    width: 568px;
+    height: 690px;
+    display: block;
+}
+
+.img1{
+    background: url('../../assets/crew/image-mark-shuttleworth.png') no-repeat;
+    width: 568px;
+    height: 690px;
+}
+
+.img2{
+    background: url('../../assets/crew/image-victor-glover.png') no-repeat;
+    width: 568px;
+    height: 690px;
+}
+
+.img3{
+    background: url('../../assets/crew/image-anousheh-ansari.png') no-repeat;
+    width: 568px;
+    height: 690px;
+}
+
+.noneImg{
+    display: none;
+}
+
+.crew-page{
+    display: flex;
+}
+
+.text-crew{
+    width: 50vw;
+    padding-top: 54px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 165px;
+}
+
+.text-crew h3{
+    font-size: 32px;
+    color: gray;
+    font-weight: 100;
+    letter-spacing: 1px;
+    padding-bottom: 15px;
+    padding-left: 1.5px;
+}
+
+.text-crew h2{
+    font-size: 76px;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 400;
+    padding-bottom: 27px;
+    padding-left: 1.5px;
+}
+
+.text-crew p{
+    font-family: "Barlow Condensed", sans-serif;
+    color: #D0D6F9;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.text-paragraph{
+    width: 444px;
+    line-height: 32px;
+    padding-bottom: 120px;
+}
+
+.imgs-carousel{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 50vw;
+}
+
+.crew-page{
+    display: flex;
+    gap: 80px;
+}
+
+.container-btn{
+    width: 132px;
+    height: 15px;
+    display: flex;
+    gap: 24px;
+}
+
+.circle{
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    border: none;
+    background-color: #979797;
+    cursor: pointer;
+}
+
+.circle:hover{
+    background-color: #979797a1;
+}
+
+.selected-circle{
+    background-color: white;
+}

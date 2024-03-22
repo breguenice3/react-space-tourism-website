@@ -1,0 +1,6 @@
+.tec-container{
+    width: 100vw;
+    height: 100vh;
+    background: url('../../assets/technology/background-technology-desktop.jpg') no-repeat;
+    background-size: cover;
+}
