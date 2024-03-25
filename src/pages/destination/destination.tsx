@@ -72,7 +72,7 @@ export default function Destination() {
                     <div className="imgTitan none" id="img3">
                     </div>
                 </div>
-                <div>
+                <div className="container-btns">
                     <div className='buttons' id="btns">
                         <button className='btn active' id='moon' key={'moon'} onClick={() => {
 

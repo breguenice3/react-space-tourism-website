@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
 
-*{
+* {
     box-sizing: border-box;
 }
 
-.page-crew-container{
+.page-crew-container {
     width: 100vw;
     height: 100vh;
     background: url('../../../src/assets/crew/background-crew-desktop.jpg') no-repeat;
@@ -12,40 +12,40 @@
     font-family: "Bellefair", serif;
 }
 
-.img{
+.img {
     background: url('../../assets/crew/image-douglas-hurley.png') no-repeat;
     width: 568px;
     height: 690px;
     display: block;
 }
 
-.img1{
+.img1 {
     background: url('../../assets/crew/image-mark-shuttleworth.png') no-repeat;
     width: 568px;
     height: 690px;
 }
 
-.img2{
+.img2 {
     background: url('../../assets/crew/image-victor-glover.png') no-repeat;
     width: 568px;
     height: 690px;
 }
 
-.img3{
+.img3 {
     background: url('../../assets/crew/image-anousheh-ansari.png') no-repeat;
     width: 568px;
     height: 690px;
 }
 
-.noneImg{
+.noneImg {
     display: none;
 }
 
-.crew-page{
+.crew-page {
     display: flex;
 }
 
-.text-crew{
+.text-crew {
     width: 50vw;
     padding-top: 54px;
     display: flex;
@@ -54,7 +54,7 @@
     padding-left: 165px;
 }
 
-.text-crew h3{
+.text-crew h3 {
     font-size: 32px;
     color: gray;
     font-weight: 100;
@@ -63,7 +63,7 @@
     padding-left: 1.5px;
 }
 
-.text-crew h2{
+.text-crew h2 {
     font-size: 76px;
     color: white;
     letter-spacing: 1px;
@@ -72,39 +72,39 @@
     padding-left: 1.5px;
 }
 
-.text-crew p{
+.text-crew p {
     font-family: "Barlow Condensed", sans-serif;
     color: #D0D6F9;
     font-size: 18px;
     letter-spacing: 1px;
 }
 
-.text-paragraph{
+.text-paragraph {
     width: 444px;
     line-height: 32px;
     padding-bottom: 120px;
 }
 
-.imgs-carousel{
+.imgs-carousel {
     display: flex;
     align-items: center;
     text-align: center;
     width: 50vw;
 }
 
-.crew-page{
+.crew-page {
     display: flex;
     gap: 80px;
 }
 
-.container-btn{
+.container-btn {
     width: 132px;
     height: 15px;
     display: flex;
     gap: 24px;
 }
 
-.circle{
+.circle {
     width: 15px;
     height: 15px;
     border-radius: 100%;
@@ -113,10 +113,109 @@
     cursor: pointer;
 }
 
-.circle:hover{
+.circle:hover {
     background-color: #979797a1;
 }
 
-.selected-circle{
+.selected-circle {
     background-color: white;
+}
+
+@media (min-width: 768px)and (max-width: 1440px) {
+
+    .page-crew-container {
+        background: url('../../../src/assets/crew/background-crew-tablet.jpg') no-repeat;
+        font-family: "Bellefair", serif;
+    }
+
+    .img {
+        background-size: contain;
+        width: 420px;
+        height: 560px;
+    }
+
+    .img1 {
+        background-size: contain;
+        width: 456px;
+        height: 535px;
+    }
+
+    .img2 {
+        background-size: contain;
+        width: 456px;
+        height: 535px;
+    }
+
+    .img3 {
+        background-size: contain;
+        width: 456px;
+        height: 535px;
+    }
+
+    .crew-page {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text-crew {
+        width: 100vw;
+        padding-top: 60px;
+        text-align: center;
+        flex-direction: column;
+        padding-left: 0px;
+    }
+
+    .text-crew h3 {
+        font-size: 24px;
+        font-weight: 100;
+        letter-spacing: 1px;
+        padding-bottom: 8px;
+        padding-left: 0px;
+    }
+
+    .text-crew h2 {
+        font-size: 40px;
+        letter-spacing: 1px;
+        font-weight: 200;
+        padding-bottom: 16px;
+        padding-left: 0px;
+    }
+
+    .text-crew p {
+        font-family: "Barlow", sans-serif;
+        color: #D0D6F9;
+        font-size: 16px;
+        letter-spacing: 0px;
+        width: 100vw;
+        padding: 0px 155px;
+    }
+
+    .text-paragraph {
+        width: 458px;
+        line-height: 28px;
+        padding-bottom: 40px;
+    }
+
+    .imgs-carousel {
+        justify-content: center;
+        width: 100vw;
+    }
+
+    .crew-page {
+        display: flex;
+        gap: 0px;
+    }
+
+    .container-btn {
+        width: 100vw;
+        height: 15px;
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+    }
+
+    .circle {
+        width: 10px;
+        height: 10px;
+    }
 }

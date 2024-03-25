@@ -104,3 +104,86 @@
     align-items: center;
     justify-content: center;
 }
+
+@media (min-width: 768px)and (max-width: 1440px){
+
+    .tec-container {
+        background: url('../../assets/technology/background-technology-tablet.jpg') no-repeat;
+        background-size: contain;
+    }
+    
+    .space-launch-content{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+    
+    .launch-img {
+        width: 100vw;
+        height: 310px;
+        background: url('../../assets/technology/image-launch-vehicle-landscape.jpg') no-repeat;
+    }
+
+    .launch-img-container{
+        width: 100vw;
+        height: 366px;
+    }
+
+    
+    .launch-img-1{
+        width: 100vw;
+        height: 310px;
+        background: url('../../assets/technology/image-spaceport-landscape.jpg') no-repeat;
+    }
+    
+    .launch-img-2{
+        width: 100vw;
+        height: 310px;
+        background: url('../../assets/technology/image-space-capsule-landscape.jpg') no-repeat;
+    }
+    
+    .btns-launch{
+        display: flex;
+        gap: 16px;
+        flex-direction: row;
+        padding-left: 0px;
+    }
+    
+    .btn-launch{
+        width: 60px;
+        height: 60px;
+        font-size: 24px;
+    }
+  
+    .space-launch-content-text{
+        text-align: center;
+        width: 458px;
+        height: 237px;
+    }
+    
+    .space-launch-content-text h2{
+        font-size: 40px;
+        font-weight: 100;
+        font-family: "Bellefair", serif;
+        padding-bottom: 16px;
+        padding-top: 16px;
+    }
+    
+    .tittle-launch{
+        font-size: 16px;
+    }
+    
+    .info-launch{
+        font-size: 16px;
+        font-family: "Barlow", sans-serif;
+        line-height: 28px;
+        width: 458px;
+    }
+    
+    .space-launch-content-child{
+        display: flex;
+        flex-direction: column;
+        gap: 44px;
+    }
+
+}

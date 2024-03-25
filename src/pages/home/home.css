@@ -16,6 +16,7 @@
     position: absolute;
     z-index: 99;
     left: 150px;
+    display: block;
 }
 
 .navbar-container{
@@ -55,11 +56,15 @@
 .text-container h2{
     font-size: 28px;
     color: #D0D6F9;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 100;
 }
 
 .text-container h2 span{
     font-size: 150px;
     color: white;
+    font-weight: 500;
+    font-family: "Bellefair", serif;
 }
 
 .text-container p{
@@ -95,4 +100,48 @@
     letter-spacing: 2px;
     border: none;
     cursor: pointer;
+}
+
+@media (min-width: 768px)and (max-width: 1440px) {
+    
+    .navbar-container hr{
+       display: none;
+    }
+
+    .container{
+        background: url('../../assets/home/background-home-tablet.jpg') no-repeat;
+        background-size: cover;
+        gap: 106px;
+    }
+
+    .second-container{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .text-container h2{
+        font-size: 20px;
+    }
+    
+    .text-container h2 span{
+        font-size: 150px;
+    }
+    
+    .text-container p{
+        font-size: 16px;
+        line-height: 28px;
+    }
+    
+    .button-hover{
+        width: 420px;
+        height: 420px;
+    }
+    
+    .button-hover button{
+        width: 242px;
+        height: 242px;
+    }
+
 }

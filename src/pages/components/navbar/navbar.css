@@ -42,3 +42,32 @@
 .not-selected{
     text-decoration: none;
 }
+
+@media (min-width: 768px)and (max-width: 1440px){
+
+    .navbar{
+        width: 450px;
+        height: 96px;
+        display: flex;
+        gap: 37px;
+    }
+    
+    .navbar-container{
+        height: 96px;
+        padding-top: 0px;
+    }
+    
+    .navbar a{
+        font-size: 14px;
+        letter-spacing: 2.36px;
+    }
+    
+    .number{
+        display: none;
+    }
+    
+    .selected{
+        text-decoration: underline 3px;
+        text-underline-offset: 37px;
+    }
+}
