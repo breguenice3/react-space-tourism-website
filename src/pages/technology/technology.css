@@ -1,6 +1,106 @@
-.tec-container{
+.tec-container {
     width: 100vw;
     height: 100vh;
     background: url('../../assets/technology/background-technology-desktop.jpg') no-repeat;
     background-size: cover;
+}
+
+.space-launch-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.launch-img {
+    width: 515px;
+    height: 527px;
+    background: url('../../assets/technology/image-launch-vehicle-portrait.jpg') no-repeat;
+    background-size: cover;
+}
+
+.launch-img-1{
+    width: 515px;
+    height: 527px;
+    background: url('../../assets/technology/image-spaceport-portrait.jpg') no-repeat;
+    background-size: cover;
+}
+
+.launch-img-2{
+    width: 515px;
+    height: 527px;
+    background: url('../../assets/technology/image-space-capsule-portrait.jpg') no-repeat;
+    background-size: cover;
+}
+
+.disapear{
+    display: none;
+}
+
+.launch-img-container{
+    width: 515px;
+    height: 527px;
+}
+
+.btns-launch{
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+    padding-left: 65px;
+}
+
+.btn-launch{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.404);
+    background-color: transparent;
+    color: white;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.btn-launch-selected{
+    background-color: white;
+    color: #0B0D17;
+}
+
+.btns-launch button:hover{
+    border: 1px solid white;
+}
+
+.space-launch-content-text{
+    width: 470px;
+    height: 303px;
+}
+
+.space-launch-content-text h2{
+    font-size: 56px;
+    color: white;
+    font-weight: 100;
+    font-family: "Bellefair", serif;
+    padding-bottom: 17px;
+    padding-top: 11px;
+}
+
+.tittle-launch{
+    font-size: 16px;
+    color: #D0D6F9;
+    font-family: "Barlow Condensed", sans-serif;
+    letter-spacing: 2.7px;
+    font-weight: 100;
+}
+
+.info-launch{
+    font-size: 18px;
+    font-family: "Barlow Condensed", sans-serif;
+    color: #D0D6F9;
+    font-weight: 100;
+    line-height: 32px;
+    width: 444px;
+}
+
+.space-launch-content-child{
+    display: flex;
+    gap: 114.4px;
+    align-items: center;
+    justify-content: center;
 }
