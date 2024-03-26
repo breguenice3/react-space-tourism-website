@@ -251,6 +251,7 @@
 
     .page-container {
         background: url('../../assets/destination/background-destination-mobile.jpg') no-repeat;
+        background-size: contain;
         height: 850px;
     }
 

@@ -111,7 +111,7 @@
 
     .container{
         background: url('../../assets/home/background-home-tablet.jpg') no-repeat;
-        background-size: cover;
+        background-size: contain;
         gap: 106px;
     }
 
