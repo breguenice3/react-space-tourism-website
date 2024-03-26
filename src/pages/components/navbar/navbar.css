@@ -69,6 +69,10 @@
         font-size: 14px;
         letter-spacing: 2.36px;
     }
+
+    .navbar a:hover{
+        text-decoration:none;
+    }
     
     .number{
         display: none;
@@ -137,6 +141,10 @@
         padding-right: 10px;
         display: flex;
         justify-content: end;
+    }
+
+    .navbar a:hover{
+        text-decoration: none;
     }
 
 }
