@@ -111,7 +111,6 @@
 
     .container{
         background: url('../../assets/home/background-home-tablet.jpg') no-repeat;
-        background-size: contain;
         gap: 106px;
     }
 
@@ -153,6 +152,7 @@
         width: 100vw;
         height: 100vh;
         background: url('../../assets/home/background-home-mobile.jpg') no-repeat;
+        background-size: contain;
         gap: 81px;
     }
     

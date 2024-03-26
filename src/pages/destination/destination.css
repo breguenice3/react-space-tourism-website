@@ -250,6 +250,7 @@
 @media (min-width: 375px) and (max-width: 768px) {
 
     .page-container {
+        width: 100vw;
         background: url('../../assets/destination/background-destination-mobile.jpg') no-repeat;
         background-size: contain;
         height: 850px;
