@@ -121,6 +121,10 @@
     background-color: white;
 }
 
+.hr-img {
+    display: none;
+}
+
 @media (min-width: 768px)and (max-width: 1440px) {
 
     .page-crew-container {
@@ -218,4 +222,126 @@
         width: 10px;
         height: 10px;
     }
+
+    .hr-img {
+        display: none;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 768px) {
+
+    .page-crew-container {
+        height: 710px;
+        background: url('../../../src/assets/crew/background-crew-mobile.jpg') no-repeat;
+        background-size: cover;
+    }
+
+    .tittle {
+        padding-bottom: 32px;
+        text-align: center;
+    }
+
+    .img {
+        background: url('../../assets/crew/image-douglas-hurley.webp') no-repeat;
+        width: 177.2px;
+        height: 222px;
+        background-size: cover;
+    }
+
+    .img1 {
+        background: url('../../assets/crew/image-mark-shuttleworth.png') no-repeat;
+        background-size: cover;
+        width: 153.92px;
+        height: 222px;
+    }
+
+    .img2 {
+        background: url('../../assets/crew/image-victor-glover.png') no-repeat;
+        background-size: cover;
+        width: 180.73px;
+        height: 222px;
+    }
+
+    .img3 {
+        background: url('../../assets/crew/image-anousheh-ansari.png') no-repeat;
+        background-size: cover;
+        width: 226.15px;
+        height: 222px;
+    }
+
+    .crew-page {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .text-crew {
+        width: 100vw;
+        padding-top: 32px;
+        text-align: center;
+        padding-left: 0px;
+        flex-direction: column-reverse;
+    }
+
+    .text-crew h3 {
+        font-size: 16px;
+        letter-spacing: 0px;
+        padding-bottom: 8px;
+        padding-left: 0px;
+    }
+
+    .text-crew h2 {
+        font-size: 24px;
+        color: white;
+        letter-spacing: 0px;
+        padding-bottom: 16px;
+        padding-left: 0px;
+    }
+
+    .text-crew p {
+        font-size: 15px;
+        letter-spacing: 0px;
+    }
+
+    .text-paragraph {
+        width: 100vw;
+        padding: 0px 24px;
+        height: 100px;
+        line-height: 25px;
+        padding-bottom: 0px;
+    }
+
+    .imgs-carousel {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .hr-img {
+        width: 327px;
+        border: 1px solid #97979715;
+        display: block;
+    }
+
+    .crew-page {
+        display: flex;
+        gap: 32px;
+    }
+
+    .container-btn {
+        width: 100vw;
+        height: 10px;
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+        padding-bottom: 32px;
+    }
+
+    .circle {
+        width: 10px;
+        height: 10px;
+    }
+
 }

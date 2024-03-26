@@ -1,4 +1,4 @@
-.page-container{
+.page-container {
     width: 100vw;
     height: 100vh;
     background: url('../../assets/destination/background-destination-desktop.jpg') no-repeat;
@@ -35,28 +35,28 @@
     height: 445px;
 }
 
-.imgMars{
+.imgMars {
     background: url('../../assets/destination/image-mars.png') no-repeat;
     background-size: cover;
     width: 445px;
     height: 445px;
 }
 
-.imgEuropa{
+.imgEuropa {
     background: url('../../assets/destination/image-europa.png') no-repeat;
     background-size: cover;
     width: 445px;
     height: 445px;
 }
 
-.imgTitan{
+.imgTitan {
     background: url('../../assets/destination/image-titan.png') no-repeat;
     background-size: cover;
     width: 445px;
     height: 445px;
 }
 
-.none{
+.none {
     display: none;
 }
 
@@ -124,66 +124,66 @@
     padding-top: 28px;
 }
 
-.text-imgs hr{
+.text-imgs hr {
     width: 444px;
     height: 1px;
     border: 1px solid #383b4b5b;
 }
 
-.tag{
+.tag {
     color: #D0D6F9;
     font-size: 14px;
     letter-spacing: 2.36px;
 }
 
-.active{
+.active {
     text-decoration: underline 3px;
     text-underline-offset: 12px;
 }
 
-@media (min-width: 768px)and (max-width: 1440px){
+@media (min-width: 768px)and (max-width: 1440px) {
 
-    .page-container{
+    .page-container {
         background: url('../../assets/destination/background-destination-tablet.jpg') no-repeat;
     }
-    
+
     .buttons {
         gap: 35px;
     }
-    
+
     .btn {
         width: 42px;
         height: 19px;
         letter-spacing: 2.7px;
     }
-    
+
     .imgMoon {
         width: 300px;
         height: 300px;
     }
-    
-    .imgMars{
-        width: 300px;
-        height: 300px;
-    }
-    
-    .imgEuropa{
-        width: 300px;
-        height: 300px;
-    }
-    
-    .imgTitan{
+
+    .imgMars {
         width: 300px;
         height: 300px;
     }
 
-    .container-btns{
+    .imgEuropa {
+        width: 300px;
+        height: 300px;
+    }
+
+    .imgTitan {
+        width: 300px;
+        height: 300px;
+    }
+
+    .container-btns {
         display: flex;
         align-items: center;
         flex-direction: column;
         padding-top: 53px;
     }
-    
+
     .container-imgs {
         display: flex;
         flex-direction: column;
@@ -193,7 +193,7 @@
         justify-content: center;
         padding-top: 60px;
     }
-    
+
     .title-pag {
         font-weight: 300;
         font-size: 20px;
@@ -201,20 +201,20 @@
         height: 24px;
         letter-spacing: 3.38px;
     }
-    
+
     .text-imgs {
         width: 573px;
         height: 472px;
         color: white;
     }
-    
+
     .text-imgs h1 {
         font-size: 80px;
         padding-top: 32px;
         font-weight: 500;
         letter-spacing: 0px;
     }
-    
+
     .imgs-infos {
         line-height: 28px;
         font-size: 16px;
@@ -223,16 +223,16 @@
         padding-bottom: 49px;
         padding-top: 0px;
     }
-    
+
     .tittle {
         padding-left: 38.5px;
         padding-top: 40px;
     }
-    
+
     .info {
         padding-top: 0px;
     }
-    
+
     .container-data-infos {
         display: flex;
         align-items: center;
@@ -240,9 +240,122 @@
         gap: 100px;
         padding-top: 28px;
     }
-    
-    .text-imgs hr{
+
+    .text-imgs hr {
         width: 573px;
+    }
+
+}
+
+@media (min-width: 375px) and (max-width: 768px) {
+
+    .page-container {
+        background: url('../../assets/destination/background-destination-mobile.jpg') no-repeat;
+        height: 850px;
+    }
+
+    .buttons {
+        width: 237.5px;
+        height: 28px;
+        gap: 26px;
+    }
+
+    .container-btns {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 26px;
+    }
+
+    .btn {
+        width: 42px;
+        height: 19px;
+        letter-spacing: 2.36px;
+    }
+
+    .imgMoon {
+        background: url('../../assets/destination/image-moon.webp') no-repeat;
+        background-size: cover;
+        width: 170px;
+        height: 170px;
+    }
+
+    .imgMars {
+        background: url('../../assets/destination/image-mars.webp') no-repeat;
+        background-size: cover;
+        width: 170px;
+        height: 170px;
+    }
+
+    .imgEuropa {
+        background: url('../../assets/destination/image-europa.webp') no-repeat;
+        background-size: cover;
+        width: 170px;
+        height: 170px;
+    }
+
+    .imgTitan {
+        background: url('../../assets/destination/image-titan.webp') no-repeat;
+        background-size: cover;
+        width: 170px;
+        height: 170px;
+    }
+
+    .container-imgs {
+        flex-direction: column;
+        padding-top: 76px;
+        align-items: center;
+        text-align: center;
+        justify-self: center;
+        justify-content: center;
+        padding-top: 32px;
+    }
+
+    .title-pag {
+        font-size: 16px;
+        width: 221px;
+        height: 19px;
+        letter-spacing: 2.7px;
+    }
+
+    .text-imgs {
+        width: 327px;
+        height: 125px;
+        color: white;
+    }
+
+    .text-imgs h1 {
+        font-size: 56px;
+        padding-top: 20px;
+        letter-spacing: 0px;
+    }
+
+    .imgs-infos {
+        color: #D0D6F9;
+        line-height: 25px;
+        font-size: 15px;
+        letter-spacing: 0px;
+        padding-bottom: 32px;
+        padding-top: 1px;
+    }
+
+    .tittle {
+        display: flex;
+        justify-content: center;
+        padding-left: 0px;
+        padding-top: 24px;
+    }
+
+
+    .container-data-infos {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        padding-top: 32px;
+    }
+
+    .text-imgs hr {
+        width: 327px;
     }
 
 }

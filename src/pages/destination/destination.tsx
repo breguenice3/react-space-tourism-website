@@ -56,6 +56,10 @@ export default function Destination() {
                 <div className='logo' />
                 <hr />
                 <Navbar home='not-selected' destination='selected' crew='not-selected' technology='not-selected' />
+                <button id='btn-mobile' onClick={()=>{
+                    document.getElementById('navbar')?.classList.remove('hide');
+                    document.getElementById('btn-mobile')?.classList.add('hide');
+                }} className='menu-img'></button>
             </div>
 
             <div className="tittle">

@@ -39,6 +39,10 @@ export default function Technology() {
                 <div className='logo' />
                 <hr />
                 <Navbar home='not-selected' destination='not-selected' crew='not-selected' technology='selected' />
+                <button id='btn-mobile' onClick={()=>{
+                    document.getElementById('navbar')?.classList.remove('hide');
+                    document.getElementById('btn-mobile')?.classList.add('hide');
+                }} className='menu-img'></button>
             </div>
             <div className="tittle">
                 <h2 className="title-pag"><span>03</span> SPACE LAUNCH 101</h2>

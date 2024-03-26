@@ -29,7 +29,7 @@ export default function Crew() {
 
     const [number, setNumber] = useState(0);
 
-    function changeCrew(imgc: string, imgc1: string, imgc2: string, imgc3: string, btnId:string, btn1Id:string, btn2Id:string, btn3Id:string, numberState: number) {
+    function changeCrew(imgc: string, imgc1: string, imgc2: string, imgc3: string, btnId: string, btn1Id: string, btn2Id: string, btn3Id: string, numberState: number) {
         document.getElementById(imgc)?.classList.remove('noneImg');
         document.getElementById(imgc1)?.classList.add('noneImg');
         document.getElementById(imgc2)?.classList.add('noneImg');
@@ -48,6 +48,10 @@ export default function Crew() {
                 <div className='logo' />
                 <hr />
                 <Navbar home='not-selected' destination='not-selected' crew='selected' technology='not-selected' />
+                <button id='btn-mobile' onClick={() => {
+                    document.getElementById('navbar')?.classList.remove('hide');
+                    document.getElementById('btn-mobile')?.classList.add('hide');
+                }} className='menu-img'></button>
             </div>
             <div className="content">
                 <div className="tittle">
@@ -64,16 +68,16 @@ export default function Crew() {
                         </div>
                         <div className="container-btn">
                             <button className="circle selected-circle" id="btn-0" onClick={() => {
-                                changeCrew("commander", "specialist", "pilot", "engineer","btn-0", "btn-1", "btn-2","btn-3", 0);
+                                changeCrew("commander", "specialist", "pilot", "engineer", "btn-0", "btn-1", "btn-2", "btn-3", 0);
                             }}></button>
                             <button className="circle" id="btn-1" onClick={() => {
-                                changeCrew("specialist", "commander", "pilot", "engineer","btn-1","btn-0","btn-2", "btn-3", 1);
+                                changeCrew("specialist", "commander", "pilot", "engineer", "btn-1", "btn-0", "btn-2", "btn-3", 1);
                             }}></button>
                             <button className="circle" id="btn-2" onClick={() => {
-                                changeCrew("pilot", "commander", "specialist", "engineer","btn-2","btn-0","btn-1","btn-3", 2);
+                                changeCrew("pilot", "commander", "specialist", "engineer", "btn-2", "btn-0", "btn-1", "btn-3", 2);
                             }}></button>
                             <button className="circle" id="btn-3" onClick={() => {
-                                changeCrew("engineer", "commander", "pilot", "specialist","btn-3", "btn-0", "btn-1", "btn-2", 3);
+                                changeCrew("engineer", "commander", "pilot", "specialist", "btn-3", "btn-0", "btn-1", "btn-2", 3);
                             }}></button>
                         </div>
                     </div>
@@ -82,6 +86,7 @@ export default function Crew() {
                         <div className="img1 noneImg" id="specialist"></div>
                         <div className="img2 noneImg" id="pilot"></div>
                         <div className="img3 noneImg" id="engineer"></div>
+                        <hr className="hr-img"/>
                     </div>
                 </div>
             </div>

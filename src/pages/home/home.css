@@ -23,6 +23,7 @@
     display: flex;
     width: 100vw;
     justify-content: space-between;
+    gap: 237px;
 }
 
 .logo{
@@ -144,4 +145,71 @@
         height: 242px;
     }
 
+}
+
+@media (min-width: 375px) and (max-width: 768px){
+
+    .container{
+        width: 100vw;
+        height: 100vh;
+        background: url('../../assets/home/background-home-mobile.jpg') no-repeat;
+        gap: 81px;
+    }
+    
+    .navbar-container hr{
+        display: none;
+    }
+    
+    .logo{
+        width: 40px;
+        height: 40px;
+    }
+    
+    .second-container{
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 100vw;
+    }
+    
+    .second-container-text{
+        width: 327px;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .text-container{
+        display: flex;
+        flex-direction: column;
+        text-wrap: wrap;
+        width: 327px;
+        height: 276px;
+    }
+    
+    .text-container h2{
+        font-size: 28px;
+        color: #D0D6F9;
+        font-family: "Barlow Condensed", sans-serif;
+        font-weight: 100;
+    }
+    
+    .text-container h2 span{
+        font-size: 80px;
+    }
+    
+    .text-container p{
+        font-size: 15px;
+        line-height: 25px;
+    }
+    
+    .button-hover{
+        width: 150px;
+        height: 150px;
+    }
+    
+    .button-hover button{
+        width: 150px;
+        height: 150px;
+        font-size: 20px;
+        letter-spacing: 1.25px;
+    }
 }
