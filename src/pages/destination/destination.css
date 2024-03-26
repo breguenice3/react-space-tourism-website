@@ -252,7 +252,7 @@
     .page-container {
         width: 100vw;
         background: url('../../assets/destination/background-destination-mobile.jpg') no-repeat;
-        background-size: contain;
+        background-size: cover;
         height: 850px;
     }
 
