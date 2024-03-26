@@ -205,21 +205,21 @@
     }
     
     .launch-img {
-        width: 375px;
+        width: 100vw;
         height: 170px;
         background: url('../../assets/technology/image-launch-vehicle-landscape.jpg') no-repeat;
         background-size: cover;
     }
     
     .launch-img-1{
-        width: 375px;
+        width: 100vw;
         height: 170px;
         background: url('../../assets/technology/image-spaceport-landscape.jpg') no-repeat;
         background-size: cover;
     }
     
     .launch-img-2{
-        width: 375px;
+        width: 100vw;
         height: 170px;
         background: url('../../assets/technology/image-space-capsule-landscape.jpg') no-repeat;
         background-size: cover;
