@@ -152,7 +152,7 @@
         width: 100vw;
         height: 100vh;
         background: url('../../assets/home/background-home-mobile.jpg') no-repeat;
-        background-size: contain;
+        background-size: cover;
         gap: 81px;
     }
     
