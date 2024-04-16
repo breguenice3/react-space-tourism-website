@@ -129,6 +129,8 @@
 
     .page-crew-container {
         background: url('../../../src/assets/crew/background-crew-tablet.jpg') no-repeat;
+        background-size: cover;
+        height: 100%;
         font-family: "Bellefair", serif;
     }
 
@@ -231,7 +233,10 @@
 @media (min-width: 375px) and (max-width: 768px) {
 
     .page-crew-container {
-        height: 710px;
+        width: 100vw;
+        max-width: 768px;
+        height: 100vh;
+        min-height: 700px;
         background: url('../../../src/assets/crew/background-crew-mobile.jpg') no-repeat;
         background-size: cover;
     }
