@@ -2,6 +2,10 @@
 
 ![Design preview for the Space tourism website coding challenge](./preview.jpg)
 
+## Detalhes
+
+Projeto feito com React & Typescript, utilizando o React Routes, desafio do front end mentor que conta com um site de turismo espacial, com uma barra de navegação para chegar em cada página, cada página tem uma descrição diferente como: pagina inicial, planetas visitados, tripulação, tecnologia dos veículos. Conta com sua versão responsiva com algumas mudanças no layout como o botão de menu hambúrguer.
+
 ## Welcome! 👋
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects. Our challenges are perfect portfolio pieces, so please feel free to use what you create in your portfolio to show others.
